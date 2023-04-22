@@ -1,0 +1,485 @@
+/* Styles for the header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    background-image: url("pexels-pixabay-414090.jpg");
+    
+  }
+  h2{
+    color: #000;
+  }
+  .logo {
+    font-size: 1.5rem;
+    color: black;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 1rem;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Styles for the hero section */
+  #hero {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('path/to/hero-image.jpg');
+    background-size: cover;
+    color: white;
+  }
+  
+  .hero-container {
+    text-align: center;
+  }
+  
+  .hero-container h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-container p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-container button {
+    padding: 0.5rem 2rem;
+    border: none;
+    background-color: white;
+    color: #333;
+    font-size: 1.2rem;
+    border-radius: 2rem;
+  }
+  
+  .hero-container button:hover {
+    background-color: #333;
+    color: white;
+  }
+  
+  /* Styles for the services section */
+  #services {
+    padding: 4rem 0;
+    /* background-color: #f1f1f100; */
+    background-image: url("pexels-pixabay-414090.jpg");
+  }
+  
+  #services h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+  }
+  
+  .services-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .service {
+    text-align: center;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    width: 30%;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .service:hover {
+    transform: translateY(-0.5rem);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  }
+  
+  .service i {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .service h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .service p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .service button {
+    padding: 0.5rem 2rem;
+    border: none;
+    background-color: white;
+    color: #333;
+    font-size: 1rem;
+    border-radius: 2rem;
+  }
+  
+  .service button:hover {
+    background-color: #333;
+    color: white;
+}
+  
+  .view-all-services {
+    display: block;
+    margin: 2rem auto;
+    padding: 0.5rem 2rem;
+    border: 2px solid #333;
+    /* background-color: transparent; */
+    background-color: white;
+    color: #ffffff00;
+    font-size: 1rem;
+    border-radius: 2rem;
+    transition: all 0.
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    }
+    
+    .logo {
+    font-size: 1.5rem;
+    }
+    
+    nav ul {
+    list-style: none;
+    display: flex;
+    }
+    
+    nav li {
+    margin-right: 1rem;
+    }
+    
+    nav a {
+    color: white;
+    text-decoration: none;
+    }
+    
+    nav a:hover {
+    text-decoration: underline;
+    }
+    
+    /* Styles for the hero section */
+    #hero {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('path/to/hero-image.jpg');
+    background-size: cover;
+    color: white;
+    }
+    
+    .hero-container {
+    text-align: center;
+    }
+    
+    .hero-container h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    }
+    
+    .hero-container p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    }
+    
+    .hero-container button {
+        display: block;
+        margin: 2rem auto;
+        padding: 0.5rem 2rem;
+        border: 2px solid #333;
+        background-color: transparent;
+        color: #333;
+        font-size: 1rem;
+        border-radius: 2rem;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .hero-container button:hover {
+    background-color: #333;
+    color: white;
+    }
+    
+    /* Styles for the services section */
+    #services {
+    padding: 4rem 0;
+    background-color: #f1f1f100;
+    }
+    
+    #services h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    }
+    
+    .services-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+    
+    .service {
+    text-align: center;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    width: 30%;
+    transition: all 0.3s ease-in-out;
+    }
+    
+    .service:hover {
+        background-color: green;
+    transform: translateY(-0.5rem);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    }
+    
+    .service i {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    }
+    
+    .service h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    }
+    
+    .service p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    }
+    
+    .service button {
+        display: block;
+        margin: 2rem auto;
+        padding: 0.5rem 2rem;
+        border: 2px solid #333;
+        background-color: transparent;
+        color: #333;
+        font-size: 1rem;
+        border-radius: 2rem;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .service button:hover {
+    background-color: #333;
+    color: white;
+    }
+    
+    .view-all-services {
+    display: block;
+    margin: 2rem auto;
+    padding: 0.5rem 2rem;
+    border: 2px solid #333;
+    background-color: transparent;
+    color: #333;
+    font-size: 1rem;
+    border-radius: 2rem;
+    transition: all 0.3s ease-in-out;
+    }
+    
+    .view-all-services:hover {
+    background-color: #333;
+    color: white;
+    }  
+    /* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("ye.jpg");
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #67f175;
+    color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .logo {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  nav li {
+    margin-right: 1rem;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main Styles */
+  main {
+    margin: 2rem;
+  }
+  
+  .impact-container {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .impact-container h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about-us-container {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .about-us-container h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-us-container {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .contact-us-container h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    /* background: transparent */
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+    width: 50%;
+    padding: 0.5rem;
+    border-radius: 4px;
+    /* border: 1px solid #ccc; */
+    background: transparent;
+    margin-bottom: 1rem;
+  }
+  
+  form textarea {
+    resize: vertical;
+  }
+  
+  form button[type="submit"] {
+    display: block;
+    margin: 2rem auto;
+    padding: 0.5rem 2rem;
+    border: 2px solid #333;
+    background-color: transparent;
+    color: #333;
+    font-size: 1rem;
+    border-radius: 2rem;
+    transition: all 0.3s ease-in-out;
+  }
+  form button[type="submit"]:hover{
+    background-color: black;
+    color: white;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #F5F5F5;
+    padding: 1rem;
+    background-image: url("pexels-pixabay-414090.jpg");
+}
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-logo h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .footer-links ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .footer-links li {
+    margin-right: 1rem;
+  }
+  
+  .footer-links a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-social-media ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .footer-social-media li {
+    margin-right: 1rem;
+  }
+  
+  .footer-social-media a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .footer-social-media a:hover {
+    text-decoration: underline;
+  }
+  button{
+    display: block;
+    margin: 2rem auto;
+    padding: 0.5rem 2rem;
+    border: 2px solid #333;
+    background-color: transparent;
+    color: #333;
+    font-size: 1rem;
+    border-radius: 2rem;
+    transition: all 0.3s ease-in-out;
+  }
+  button:hover{
+    background-color: #333;
+    color: white;
+  }
